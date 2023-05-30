@@ -15,6 +15,7 @@ The specially collected dataset is called SKIPP’d – a SKy Images and Photovo
 The dataset acquired consists of 3 years of sky images (64 x 64) and concurrent photovoltaic (PV) generation data with 1-minute resolution. It contains few anomalies and missing data occurring from infrequent device reset / errors, data collection software errors, and camera replacement in middle of data collection cycle.
 
 Sunny Days
+<br>
 ![sunnygif_1](/images/sunny_day_demo_1.gif)
 ![sunnygif_2](/images/sunny_day_demo_3.gif)
 
