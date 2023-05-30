@@ -60,3 +60,14 @@ The dataset acquired consists of 3 years of sky images (64 x 64) and concurrent 
 
 ### Results
 <img src="/images/forecast_results.png " width="600" height="350"/>
+
+## Code Base
+- nowcast.ipynb: Jupyter Notebook used to create the Vision Transformer nowcast model to correlate PV output to contemporaneous images of the sky, including model training, validation and testing.
+- forecast.ipynb: Jupyter Notebook used to create the Vision Transformer forecast model to predict 15-min ahead minutely-averaged PV output, including model training, validation and testing.
+
+## Dataset Description
+- 2017_2019_images_pv_processed.hdf5: A file-directory like structure consisting of two groups: "trainval" and "test", for storing model development set and test set, respectively, with each group containing two datasets: "images_log" and "pv_log", which stores the processed images and PV generation data from all three years (2017-2019) in Python NumPy array format.
+- times_traival.npy: Python NumPy array of time stamps corresponding to development set in .hdf5 file.
+- times_test.npy: Python NumPy array of time stamps corresponding to test set in .hdf5 file.
+
+Benchmark data available <a href="https://purl.stanford.edu/dj417rh1007"> here </a>
