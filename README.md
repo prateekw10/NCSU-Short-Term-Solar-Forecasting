@@ -6,7 +6,7 @@
 - Initially, we achieved excellent results on solar nowcasting task using our approach of applying state-of-the-art Vision Transformer (ViT) and comparing it with a  Convolutional Neural Network (CNN) baseline model.
 - We extended the scope of our project to perform short-term (15-minute ahead) solar forecasting by experimenting with different image data stacking techniques to retain the temporal history and modified our ViT as well the CNN benchmark model to perform comparative performance analysis.
 
-## Data acquisition 
+## Data Acquisition 
 
 The dataset used for this project has been acquired from Dr. Adam Brandt’s Environmental Assessment and Optimization (EAO) Group at Stanford University.
 
@@ -43,7 +43,7 @@ The dataset acquired consists of 3 years of sky images (64 x 64) and concurrent 
 <img src="/images/nowcast_vit.png" alt= “” width="500" height="250">
 
 ### Results
-<img src="/images/nowcast_graphs.png" width="300" height="400"/>   <img src="/images/nowcast_results.png " width="400" height="400"/>
+<img src="/images/nowcast_result.png " width="600" height="350"/>
 
 ## Forecast 
 
@@ -56,6 +56,7 @@ The dataset acquired consists of 3 years of sky images (64 x 64) and concurrent 
 </p>
 
 ### Proposed Vision Transformer Architecture 
-
+<img src="/images/forecast_vit.png" alt= “” width="500" height="250">
 
 ### Results
+<img src="/images/forecast_results.png " width="600" height="350"/>
