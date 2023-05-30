@@ -14,34 +14,48 @@ The specially collected dataset is called SKIPP’d – a SKy Images and Photovo
 
 The dataset acquired consists of 3 years of sky images (64 x 64) and concurrent photovoltaic (PV) generation data with 1-minute resolution. It contains few anomalies and missing data occurring from infrequent device reset / errors, data collection software errors, and camera replacement in middle of data collection cycle.
 
-**Sunny Days**
-<br><br>
-![sunnygif_1](/images/sunny_day_demo_1.gif)
-![sunnygif_2](/images/sunny_day_demo_3.gif)
-<br><br>
-**Cloudy Days**
-<br><br>
-![cloudygif_1](/images/cloudy_day_demo_1.gif)
-![cloudygif_2](/images/cloudy_day_demo_3.gif)
+<p>
+  <ins>Sunny Days</ins>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <ins>Cloudy Days</ins>
+  <br><br>
+  <img src="/images/sunny_day_demo_1.gif">
+  &nbsp;&nbsp;
+  <img src="/images/sunny_day_demo_3.gif">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/images/cloudy_day_demo_1.gif">
+  &nbsp;&nbsp;
+  <img src="/images/cloudy_day_demo_3.gif">
+</p>
 
-## Nowcast Baseline model architecture 
-<br><br>
-![nowcast_cnn](/images/nowcast_cnn.png)
-<br>
-![nowcast_summary](/images/nowcast_summary.png)
-&nbsp;&nbsp;
-![nowcast_data](/images/nowcast_data.png)
+## Nowcast 
 
-## Nowcast Proposed Vision Transformer architecture 
+### Baseline Model Architecture 
+<img src="/images/nowcast_cnn.png " alt= “” width="500" height="250">
+<p>
+  <img src="/images/nowcast_summary.png" width="300" height="150"/> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/images/nowcast_data.png " width="300" height="150"/>
+</p>
+
+### Proposed Vision Transformer Architecture 
+<img src="/images/nowcast_vit.png" alt= “” width="500" height="250">
+
+### Results
+<img src="/images/nowcast_graphs.png" width="300" height="400"/>   <img src="/images/nowcast_results.png " width="400" height="400"/>
+
+## Forecast 
+
+### Baseline Model Architecture 
+<img src="/images/forecast_cnn.png " alt= “” width="500" height="250">
+<p>
+  <img src="/images/forecast_summary.png" width="300" height="150"/> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/images/forecast_data.png " width="300" height="150"/>
+</p>
+
+### Proposed Vision Transformer Architecture 
 
 
-## Nowcast Results
-
-
-## Forecast Baseline model architecture 
-
-
-## Forecast Proposed Vision Transformer architecture 
-
-
-## Forecast Results
+### Results
