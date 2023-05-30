@@ -14,13 +14,23 @@ The specially collected dataset is called SKIPP’d – a SKy Images and Photovo
 
 The dataset acquired consists of 3 years of sky images (64 x 64) and concurrent photovoltaic (PV) generation data with 1-minute resolution. It contains few anomalies and missing data occurring from infrequent device reset / errors, data collection software errors, and camera replacement in middle of data collection cycle.
 
-Sunny Days
-<br>
+**Sunny Days**
+<br><br>
 ![sunnygif_1](/images/sunny_day_demo_1.gif)
 ![sunnygif_2](/images/sunny_day_demo_3.gif)
+<br><br>
+**Cloudy Days**
+<br><br>
+![cloudygif_1](/images/cloudy_day_demo_1.gif)
+![cloudygif_2](/images/cloudy_day_demo_3.gif)
 
 ## Nowcast Baseline model architecture 
-
+<br><br>
+![nowcast_cnn](/images/nowcast_cnn.png)
+<br>
+![nowcast_summary](/images/nowcast_summary.png)
+&nbsp;&nbsp;
+![nowcast_data](/images/nowcast_data.png)
 
 ## Nowcast Proposed Vision Transformer architecture 
 
