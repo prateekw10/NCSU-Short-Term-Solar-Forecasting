@@ -6,7 +6,7 @@
 - Initially, we achieved excellent results on solar nowcasting task using our approach of applying state-of-the-art Vision Transformer (ViT) and comparing it with a  Convolutional Neural Network (CNN) baseline model.
 - We extended the scope of our project to perform short-term (15-minute ahead) solar forecasting by experimenting with different image data stacking techniques to retain the temporal history and modified our ViT as well the CNN benchmark model to perform comparative performance analysis.
 
-## Data acquisition 
+## Data Acquisition 
 
 The dataset used for this project has been acquired from Dr. Adam Brandt’s Environmental Assessment and Optimization (EAO) Group at Stanford University.
 
@@ -43,7 +43,7 @@ The dataset acquired consists of 3 years of sky images (64 x 64) and concurrent 
 <img src="/images/nowcast_vit.png" alt= “” width="500" height="250">
 
 ### Results
-<img src="/images/nowcast_graphs.png" width="300" height="400"/>   <img src="/images/nowcast_results.png " width="400" height="400"/>
+<img src="/images/nowcast_result.png " width="600" height="350"/>
 
 ## Forecast 
 
@@ -56,6 +56,18 @@ The dataset acquired consists of 3 years of sky images (64 x 64) and concurrent 
 </p>
 
 ### Proposed Vision Transformer Architecture 
-
+<img src="/images/forecast_vit.png" alt= “” width="500" height="250">
 
 ### Results
+<img src="/images/forecast_results.png " width="600" height="350"/>
+
+## Code Base
+- nowcast.ipynb: Jupyter Notebook used to create the Vision Transformer nowcast model to correlate PV output to contemporaneous images of the sky, including model training, validation and testing.
+- forecast.ipynb: Jupyter Notebook used to create the Vision Transformer forecast model to predict 15-min ahead minutely-averaged PV output, including model training, validation and testing.
+
+## Dataset Description
+- 2017_2019_images_pv_processed.hdf5: A file-directory like structure consisting of two groups: "trainval" and "test", for storing model development set and test set, respectively, with each group containing two datasets: "images_log" and "pv_log", which stores the processed images and PV generation data from all three years (2017-2019) in Python NumPy array format.
+- times_traival.npy: Python NumPy array of time stamps corresponding to development set in .hdf5 file.
+- times_test.npy: Python NumPy array of time stamps corresponding to test set in .hdf5 file.
+
+Benchmark data available <a href="https://purl.stanford.edu/dj417rh1007"> here </a>
